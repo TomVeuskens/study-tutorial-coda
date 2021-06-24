@@ -123,3 +123,8 @@ video {
   width: 75%    !important;
   height: auto   !important;
 }
+
+img {
+  max-width: 75%;
+  margin-left: 12.5%;
+}

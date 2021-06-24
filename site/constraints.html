@@ -85,7 +85,20 @@
                 <h1 class="h2">Constraints and parametric behavior</h1>
             </div>
             <div>
-                <p>The purpose of this study is to specify parametric behavior in 3D CAD models by adding constraints to a 3D CAD model.</p>
+                <p>The purpose of this study is to specify parametric behavior in 3D CAD models by adding constraints to a 3D CAD model. Specifying parametric behavior is useful in 3D CAD modeling as it defines how the 3D CAD model behaves when it is resized. This enables designers to quickly make derived designs by only modifying the parameters and to reuse designs more efficiently.</p>
+                <p>A designer can specify parametric behavior in a 3D CAD model by adding <b>constraints</b> to the model. Constraints ensure that a given relation between entities in the design always remains satisfied when the model is resized. For example, consider this laptop stand below. If we would resize it to fit a different laptop, we can define multiple relations that should remain satisfied and thus should be constrained.</p>
+                <img src="../img/laptopstands.png" alt="laptopstands"/>
+                <p>For example, if we look at the side legs of the laptop stand (right), we can define several relations that should remain satisfied when resizing the laptop stand, and thus should be constrained. One of those is that the left edge (red) and the bottom edges (green) should always be perpendicular, as shown in the illustration below. </p>
+                <video controls>
+                    <source src="../videos/constraints-expl.mp4" type="video/mp4"/>
+                </video>
+                <p>In the same part of the laptop stand, we can define other relations that should always remain satisfied, and thus should be constrained. Some of these relations are shown below.</p>
+                <video controls>
+                    <source src="../videos/constraints-otherrelations-2d.mp4" type="video/mp4"/>
+                </video>
+                <p>The previous relations were defined in a single 2D sketch. However, it can also be desirable to constrain relations in 3D. If we look at the example of our laptop stand, we have to make sure the different plates always fit. So if the thickness of a plate changes, the length tab to hold the plate should be updated accordingly, as shown below.</p>
+
+                <p>In summary, the following constraints can be added in 3D CAD models.</p>
             </div>
 
         </main>
