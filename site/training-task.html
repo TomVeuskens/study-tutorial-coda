@@ -56,7 +56,14 @@
                         <ul class="nav flex-column">
                             <li class="nav-item"><a class="nav-link" href="fusion-basics.html">Fusion basics (optional)</a></li>
                             <li class="nav-item"><a class="nav-link" href="constraints.html">Constraints and parametric behavior</a></li>
-                            <li class="nav-item"><a class="nav-link active" href="training-task.html">Training task</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="training-task.html">Training task</a>
+                                <ul class="nav flex-column">
+                                    <li class="nav-item"><a class="nav-link" href="training-task-fusion.html">Fusion 360</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="training-task-coda.html">CODA</a></li>
+                                </ul>
+                            </li>
+
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -82,7 +89,45 @@
 
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                <h1 class="h2">Dashboard</h1>
+                <h1 class="h2">Training task</h1>
+            </div>
+            <div>
+                <p>
+                    We will now use the example of the <a href="constraints.html">laptop stand</a> to get familiar with both tools that will be used in this study. We will give a task to build a parametric specification similar to the actual tasks that will be performed in this study.
+                    We will show how this training task is performed in both tools. You can then replicate these procedures yourself to get familiar with both tools. Once you feel confident with a tool to start the task you're assigned to, you can move to the actual task.
+                </p>
+                <h3>Task</h3>
+                <p>For this task we will focus on a partial model of the laptop stand consisting of a side leg and the top plate. We will start with a partially constrained design consisting of 2 sketches and 2 extrusions as illustrated below.</p>
+                <video controls>
+                    <source src="../videos/trainingtaskdescription-modelbuildup.mp4" type="video/mp4"/>
+                </video>
+                <p>The training task consists of correctly specifying parametric behavior to ensure this part resizes correctly when resized to fit laptops of different dimensions. The desired parametric behavior is defined as follows: </p>
+                <ol>
+                    <li>
+                        When the depth of the laptop that needs to be accommodated by the laptop stand changes, the material of the side leg should remain of uniform thickness. You can test this by changing the intended depth of the laptop as shown below. (not sure if clear that we mean to make top parallel and left-bottom perp)
+                    </li>
+                    <video controls>
+                        <source src="../videos/trainingtask-part1.mp4" type="video/mp4"/>
+                    </video>
+                    <li>
+                        When the depth of the laptop changes, the width of the tabs should resize accordingly. The space between the tabs should always be twice the width of a tab. You can test this by changing the intended depth as in task <b>(1)</b>. Ensure that the specification of task <b>(1)</b> remains valid when specifying this task.
+                    </li>
+                    <video controls>
+                        <source src="../videos/trainingtask-part2.mp4" type="video/mp4"/>
+                    </video>
+                    <li>
+                        When the material thickness changes with which the laptop stand is intended to be fabricated, the size of all tabs should update to accommodate the new material thickness. More specifically, the size of all tabs should follow that of the top-left tab. You can test this by changing the size of the top-left tab as shown below.
+                    </li>
+                    <video controls>
+                        <source src="../videos/trainingtask-part3.mp4" type="video/mp4"/>
+                    </video>
+                    <li>
+                        As an extension to task <b>(3)</b>, not only the size of the tabs should change, but the thickness of the top plate (in 3D) should also scale correctly with the thickness to ensure a proper fitment in the tabs.
+                    </li>
+                    <video controls>
+                        <source src="../videos/trainingtask-part4.mp4" type="video/mp4"/>
+                    </video>
+                </ol>
             </div>
 
         </main>
