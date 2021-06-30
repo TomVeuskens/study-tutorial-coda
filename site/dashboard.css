@@ -132,3 +132,7 @@ img {
 ol {
   max-width: 75%;
 }
+
+li > p {
+  max-width: 100%;
+}

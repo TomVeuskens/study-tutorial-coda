@@ -68,7 +68,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <span data-feather="file"></span>
+                            <span data-feather="tool"></span>
                             Task 1
                         </a>
                         <ul class="nav flex-column">
@@ -78,8 +78,14 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <span data-feather="file"></span>
+                            <span data-feather="tool"></span>
                             Task 2
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://uhasselt.qualtrics.com/jfe/preview/SV_0TXvwtcsuGLVVA2?Q_CHL=preview&Q_SurveyVersionID=current">
+                            <span data-feather="help-circle"></span>
+                            Debrief Survey
                         </a>
                     </li>
                 </ul>
@@ -91,7 +97,55 @@
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                 <h1 class="h2">Training task - Autodesk Fusion 360</h1>
             </div>
+            <div>
+                <p>As the purpose of this training task is to get familiar with the tools that you will be using during the remainder of the study, we will now show how to complete the training task in both systems. On this page, you can view the procedure for the Fusion 360 condition. You are free to replicate the procedures illustrated on this page until you feel confident to start with the actual task in the Fusion 360 condition. </p>
 
+                <ol>
+                    <li>
+                        <b>When the depth of the laptop that needs to be accommodated by the laptop stand changes, the material of the side leg should remain of uniform thickness. You can test this by changing the intended depth of the laptop as shown below. </b>
+                        <p>As you can see when changing the depth of the laptop, the lines at the top do not remain parallel, causing the material to be of non-uniform thickness. This can be solved by adding a <i>parallel</i> constraint as shown below.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
+                        <p>Although we only place one parallel constraint, the bottom line will remain parallel to all 3 lines at the top. This is a result of the constraints that are already present in the model, implying that the 3 lines at the top are always parallel. You can also see this by attempting to add another parallel constraint: this will result in an error message as shown below because this constraint is already implied by the model.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
+                        <p>Moreover, the angle in the left side of the laptop stand is also not fixed yet. This can easily be solved by adding a perpendicular constraint between the bottom and the left edge as shown below.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
+                    </li>
+                    <li>
+                        <b>When the depth of the laptop changes, the width of the tabs should resize accordingly. The space between the tabs should always be twice the width of a tab. You can test this by changing the intended depth as in task <b>(1)</b>.</b>
+                        <p>
+                            As you can see, in the original model the depth of the laptop is 200mm, the distance between the tabs 50mm, and the width of the tabs themselves is 25mm. To ensure these values are resized accordingly, we need to specify the 50mm and the 25mm as a fraction of the entire depth instead of fixed dimensions. More specifically, 50mm is 1/4 of the laptop size, and 25mm is 1/2 of the 50mm. You can specify this in Fusion 360 by double clicking a dimension to edit it.
+                            Next, you can change the fixed dimension to a mathematical expression with a variable. For example, to specify the distance between the tabs to be 1/4th of the entire depth, we use the depth as a variable and enter <i>*name of variable* / 4</i> as the mathematical expression. You can find this name by hovering the dimension that you want to link the relation to as shown below.
+                        </p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
+                        <p>Specifying the width of the tab to be half the length of the size between the tabs can be done using a similar procedure. Instead of linking to the depth directly, we link to one of the distances between the tabs. Instead of manually remembering and typing the name of the dimension, we can also simply click on it to fill in the name in the expression automatically. Although we don't directly link to the overall depth, these dimensions are still indirectly related.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
+                    </li>
+                    <li>
+                        <b>When the material thickness changes with which the laptop stand is intended to be fabricated, the size of all tabs should update to accommodate the new material thickness. More specifically, the size of all tabs should follow that of the top-left tab. You can test this by changing the size of the top-left tab as shown below.</b>
+                        <p>This task repeats a very similar procedure to the actions performed in (2). We now link to the dimension of the top left tab, either by typing the name or clicking the dimension. Instead of filling in an algebraic formula, we can simply use the name of the dimension we want to link to, as this is shorthand for <i>*name of variable* x 1</i>.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
+                    </li>
+                    <li>
+                        <b>As an extension to task <b>(3)</b>, not only the size of the tabs should change, but the thickness of the top plate (in 3D) should also scale correctly with the thickness to ensure a proper fitment in the tabs.</b>
+                        <p>In (3), we linked all relevant entities in the side-profile sketch to the correct dimension. However, the thickness of the top part should also be related to the same value. We again remember the name of the parameter we want to make a reference to. Now, we leave the 2D sketch, and edit the extrude feature of the plate in 3D. Next, we replace the fixed value for the extrusion thickness to refer to the desired dimension.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
+                    </li>
+                </ol>
+            </div>
         </main>
     </div>
 </div>
