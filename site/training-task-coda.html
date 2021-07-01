@@ -38,7 +38,7 @@
 <body>
 
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">CODA study</a>
+    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="index.html">CODA study</a>
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -67,17 +67,13 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="task1.html">
                             <span data-feather="tool"></span>
                             Task 1
                         </a>
-                        <ul class="nav flex-column">
-                            <li class="nav-item"><a class="nav-link" href="#">Task 1.1</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Task 1.1</a></li>
-                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="task2.html">
                             <span data-feather="tool"></span>
                             Task 2
                         </a>
@@ -99,18 +95,51 @@
             </div>
             <div>
                 <p>As the purpose of this training task is to get familiar with the tools that you will be using during the remainder of the study, we will now show how to complete the training task in both systems. On this page, you can view the procedure for the CODA condition. You are free to replicate the procedures illustrated on this page until you feel confident to start with the actual task in the CODA condition. </p>
+                <p>CODA provides suggestions to constrain relations that are currently satisfied in the design but are not constrained to always be satisfied. When you accept a suggestion, CODA automatically adds the correct constraints to the model to ensure the relation will always be satisfied, even when changes are made to the model. To successfully complete the task in CODA you will thus have to browse the list of suggestions, identify the suggestions that propose the intended behavior, and tell CODA to add the correct constraints by accepting the suggestion. </p>
                 <ol>
                     <li>
                         <b>When the depth of the laptop that needs to be accommodated by the laptop stand changes, the material of the side leg should remain of uniform thickness. You can test this by changing the intended depth of the laptop as shown below. </b>
+                        <p>Upon opening the correct sketch, we notice CODA provides suggestions for parallel constraints. When hovering the suggestion for parallel lines at the top of the side leg, we indeed verify through the animation that the current behavior is undesired as the animation clearly shows that the material of the side leg will not necessarily stay uniform. We thus accept the suggestion to let CODA add the correct constraint to prevent this undesired movement from happening.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
+                        <p>Moreover, we see suggestions for perpendicular constraints in CODA. Again, by hovering the suggestions, we notice that the angle between the left and the bottom line is not fixed, resulting again in a possible non-uniform thickness. As this is undesired behavior, we again let CODA add the correct constraint to the model.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
                     </li>
                     <li>
                         <b>When the depth of the laptop changes, the width of the tabs should resize accordingly. The space between the tabs should always be twice the width of a tab. You can test this by changing the intended depth as in task <b>(1)</b>.</b>
+                        <p>In the list of suggestions provided by CODA, we also see a category "Dimensional suggestions". When opening this list, we see that there are multiple suggestions that we need to process. To more quickly find the correct one, we can filter the list by indicating between which lines we are looking for a relation. As shown in the video below, we can do this by selecting the respective lines in the design. </p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
+                        <p>When we accept the suggestion, CODA adds the correct algebraic expressions to the dimensions to ensure the tabs resize as desired.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
                     </li>
                     <li>
                         <b>When the material thickness changes with which the laptop stand is intended to be fabricated, the size of all tabs should update to accommodate the new material thickness. More specifically, the size of all tabs should follow that of the top-left tab. You can test this by changing the size of the top-left tab as shown below.</b>
+                        <p>Similar to the previous task, we can select some of the lines of the tabs to filter the suggestions and then accept the suggestion.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
                     </li>
                     <li>
                         <b>As an extension to task <b>(3)</b>, not only the size of the tabs should change, but the thickness of the top plate (in 3D) should also scale correctly with the thickness to ensure a proper fitment in the tabs.</b>
+                        <p>To complete this task, we have to go to the 3D view of the design. We can do this either by clicking on "Finish Sketch" in the Fusion 360 interface, or by clicking the "3D view" tab in CODA. Both methods are shown below.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
+                        <p>Independent of which method we use to get to the 3D view, once we are in the 3D view we see that the suggestions of CODA are updated to include suggestions between multiple modeling features, and between modeling features and sketch entities. We can also hover the suggestions in 3D to analyze the implication of the suggestion.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
+                        <p>Finally, once we identify the correct suggestion, we accept it and CODA again makes sure that the relation is correctly constrained into the design.</p>
+                        <video controls>
+                            <source src="../videos/placeholder-trim.mp4" type="video/mp4"/>
+                        </video>
                     </li>
                 </ol>
             </div>
