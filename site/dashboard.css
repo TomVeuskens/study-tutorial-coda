@@ -136,3 +136,7 @@ ol {
 li > p {
   max-width: 100%;
 }
+
+.btn {
+  margin-bottom: 15px;
+}
