@@ -4,7 +4,6 @@
     <list default="true" id="f691397e-c9d9-4b85-89c3-a2e115d3a197" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/training-task-coda.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/training-task-coda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/training-task-fusion.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/training-task-fusion.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624372744541</updated>
       <workItem from="1624372745687" duration="33832000" />
-      <workItem from="1624863907557" duration="56860000" />
+      <workItem from="1624863907557" duration="57888000" />
     </task>
     <servers />
   </component>
