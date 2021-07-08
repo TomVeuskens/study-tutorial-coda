@@ -96,40 +96,42 @@
             <div>
                 <p>
                     We will now use the example of the <a href="constraints.html">laptop stand</a> to get familiar with both tools that will be used in this study. We will give a task to build a parametric specification similar to the actual tasks that will be performed in this study.
-                    We will show how this training task is performed in both tools. You can then replicate these procedures yourself to get familiar with both tools. Once you feel confident with a tool to start the task you're assigned to, you can move to the actual task.
+                    We will show how this training task is performed in both tools. You are given time to replicate these procedures yourself to get familiar with both tools. Once you feel confident with a tool to start the task you're assigned to, you can move to the actual task.
+                    During the training phases, please feel free to ask questions to the researcher that is guiding your study session. Once you move to the actual task, this is not possible anymore.
                 </p>
                 <h3>Task</h3>
-                <p>For this task we will focus on a partial model of the laptop stand consisting of a side leg and the top plate. We will start with a partially constrained design consisting of 2 sketches and 2 extrusions as illustrated below.</p>
+                <p>For this training task, we will focus only on the side and top panel of the laptop stand, each of which are extruded sketches as shown below. The sketches for these parts already include some basic constraints.</p>
                 <video controls>
                     <source src="../videos/trainingtaskdescription-modelbuildup.mp4" type="video/mp4"/>
                 </video>
-                <p>The training task consists of correctly specifying parametric behavior to ensure this part resizes correctly when resized to fit laptops of different dimensions. The desired parametric behavior is defined as follows: </p>
+                <p>In this training task, you'll learn how to add the necessary constraints to ensure this laptop stand always resizes correctly. We now first describe four prominent issues that arise when resizing the model. In the following sections, we will resolve this issues using respectively Fusion 360 and CODA. We make the most important parameters available to test your design through user parameters, but you can also test your design by double clicking the dimensions to directly manipulate the values.</p>
                 <ol>
                     <li>
-                        When the depth of the laptop that needs to be accommodated by the laptop stand changes, the material of the side leg should remain of uniform thickness. You can test this by changing the intended depth of the laptop as shown below. (not sure if clear that we mean to make top parallel and left-bottom perp)
+                        In the video below, the side panel has a uniform width of 20mm. However, when changing the size of the laptop, this relation breaks.
                     </li>
                     <video controls>
                         <source src="../videos/trainingtask-part1.mp4" type="video/mp4"/>
                     </video>
                     <li>
-                        When the depth of the laptop changes, the width of the tabs should resize accordingly. The space between the tabs should always be twice the width of a tab. You can test this by changing the intended depth as in task <b>(1)</b>.
+                        In the video below, the top edge is divided in five parts: two tabs and three cutouts between the tabs. The cutouts are a quarter of the laptop size, and the tabs are half the size of the cutouts. However, when changing the size of the laptop, these relations break.
                     </li>
                     <video controls>
                         <source src="../videos/trainingtask-part2.mp4" type="video/mp4"/>
                     </video>
                     <li>
-                        When the material thickness changes with which the laptop stand is intended to be fabricated, the size of all tabs should update to accommodate the new material thickness. More specifically, the size of all tabs should follow that of the top-left tab. You can test this by changing the size of the top-left tab as shown below.
+                        In the video below, the height of the two tabs are equal in size. However, when changing the height of top-left tab, this relations breaks.
                     </li>
                     <video controls>
                         <source src="../videos/trainingtask-part3.mp4" type="video/mp4"/>
                     </video>
                     <li>
-                        As an extension to task <b>(3)</b>, not only the size of the tabs should change, but the thickness of the top plate (in 3D) should also scale correctly with the thickness to ensure a proper fitment in the tabs.
+                        In the video below, the thickness (extrusion) of the top panel is equal to the height of the tabs. However, when the height of the tab changes, this relation breaks.
                     </li>
                     <video controls>
                         <source src="../videos/trainingtask-part4.mp4" type="video/mp4"/>
                     </video>
                 </ol>
+                <p><b>Your task consists of adding the necessary constraints such that the relations above are always satisfied when the size of the laptop or the height of the tabs change.</b></p>
             </div>
 
         </main>

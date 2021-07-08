@@ -87,31 +87,33 @@
                 <h1 class="h2">Task 1</h1>
             </div>
             <div>
-                <p>Similar to the training task, we will take a CAD model and focus on making a parametric specification for a specific part of the model. For this task, we will use a 3D model of a picnic bench. More specifically, we will focus on the side leg of the picnic bench, as shown below.</p>
+                <p>Similar to the training task, we will take a CAD model and focus on making a parametric specification for a specific part of the model. For this task, we will use focus on the side leg of a picnic bench, as shown below.</p>
                 <img src="../img/picknickbenches.png"/>
                 <h3>Task</h3>
-                <p>For this task, we will focus on a partial model of the picnic bench consisting of only the side leg. We will start with a partially constrained design consisting of 1 sketch and 1 extrusion as illustrated below.</p>
+                <p>For this task, we will focus only on the side frame of the picnic bench, which is an extruded sketch as shown below. The sketch already includes some basic constraints.</p>
                 <video controls>
                     <source src="../videos/picknick-bench-tasksetup.mp4" type="video/mp4"/>
                 </video>
                 <ol>
-                    <li>When the material thickness resized, it should remain uniform across the entire leg. The centre beam should always be twice this thickness. You can test this by varying the thickness as shown below.</li>
+                    <li>In the video below, the thickness of the frame is uniform with an exception of the center beam, which is twice the thickness. However, when changing the thickness of the left seating area, this relation breaks.</li>
                     <video controls>
                         <source src="../videos/bench-task-description-0.mp4" type="video/mp4"/>
                     </video>
-                    <li>As an extension to <b>task (1)</b>, the depth of the material of the leg should also resize uniformly together with the rest of the material thickness. You can test this using the same procedure as in <b>(1)</b>.</li>
+                    <li>In the video below, the 3D thickness (extrusion) of the frame is uniform to the thickness of the frame. However, when changing the thickness of the left seating area, this relation breaks.</li>
                     <video controls>
                         <source src="../videos/bench-task-description-1_Trim.mp4" type="video/mp4"/>
                     </video>
-                    <li>When the width of the bench resizes, the width of the seats should remain constant, but the table should widen so that its edges are always aligned with the benches. You can test this by changing the width of the bench as shown below.</li>
+                    <li>In the video below, the ends of the table are aligned with the seating benches. However, when the width of the bench resizes, this relation breaks.</li>
                     <video controls>
                         <source src="../videos/bench-task-description-3.mp4" type="video/mp4"/>
                     </video>
-                    <li>When the height of the picnic bench resizes, the height of both benches should be the same. As you can see, the height of the right bench is updated as when the total height varies, and the left bench should follow this change. You can test this by changing the height of the bench as shown below. </li>
+                    <li>In the video below, the height of the seating benches is the same. However, when the height of the bench resizes, the relation breaks.</li>
                     <video controls>
                         <source src="../videos/bench-task-description-2.mp4" type="video/mp4"/>
                     </video>
                 </ol>
+                <p><b>Your task consists of adding the necessary constraints such that the relations above are always satisfied when the height, the width, or the thickness of the bench change.</b></p>
+
             </div>
 
         </main>

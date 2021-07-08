@@ -87,31 +87,32 @@
                 <h1 class="h2">Task 2</h1>
             </div>
             <div>
-                <p>Similar to the training task, we will take a CAD model and focus on making a parametric specification for a specific part of the model. For this task, we will use a 3D model of a desk. More specifically, we will focus on the tabletop (together with its supporting frame) of the desk, as shown below.</p>
+                <p>Similar to the training task, we will take a CAD model and focus on making a parametric specification for a specific part of the model. For this task, we will focus on the tabletop (with its supporting frame) of a desk, as shown below.</p>
                 <img src="../img/desks.png"/>
                 <h3>Task</h3>
-                <p>For this task, we will focus on a partial model of the desk consisting of the tabletop and the supporting frame. We will start with a partially constrained design consisting of 2 sketches and 2 extrusions as illustrated below.</p>
+                <p>For this task, we will focus only on the tabletop and its supporting frame of a desk, each of which are extruded sketches as shown below. The sketches for these parts already include some basic constraints.</p>
                 <video controls>
                     <source src="../videos/desk-tasksetup.mp4" type="video/mp4"/>
                 </video>
                 <ol>
-                    <li>When the width of the tabletop resizes, the dividing table between both desks should remain centered. You can test this by changing the width of the tabletop as shown below.</li>
+                    <li>In the video below, the dividing table between both desks is centered. However, when the width of the tabletop changes, this relation breaks.</li>
                     <video controls>
                         <source src="../videos/desk-task-description-0.mp4" type="video/mp4"/>
                     </video>
-                    <li>When the depth of the dividing table resizes, the ratio between the size of the dividing table and the depth of the desk itself should remain the same. You can test this by changing the depth of the dividing table as shown below.</li>
+                    <li>In the video below, the depth of the desk is half the size of the dividing table. However, when size of the dividing table changes, this relation breaks.</li>
                     <video controls>
                         <source src="../videos/desk-task-description-1.mp4" type="video/mp4"/>
                     </video>
-                    <li>The depth of the desk itself should always be the same as the width of the dividing table. As the depth of the desk is related to the depth of the dividing table as defined in <b>(2)</b>, you can again test this by changing the depth of the dividing table as shown below.</li>
+                    <li>In the video below, the tabletop has a uniform thickness. However, when changing the size of the dividing table, this relation breaks.</li>
                     <video controls>
                         <source src="../videos/desk-task-description-2.mp4" type="video/mp4"/>
                     </video>
-                    <li>When the thickness of the tabletop resizes, the thickness of the supporting frame should resize accordingly so that it can support the additional weight. You can test this by changing the thickness of the tabletop as shown below.</li>
+                    <li>In the video below, the thickness (extrusion) of the tabletop and the thickness (extrusion) of the supporting frame is the same. However, when changing the thickness of the tabletop, this relation breaks.</li>
                     <video controls>
                         <source src="../videos/desk-task-description-3.mp4" type="video/mp4"/>
                     </video>
                 </ol>
+                <p><b>Your task consists of adding the necessary constraints such that the relations above are always satisfied when the width or the thickness of the tabletop changes and when the size of the dividing table changes.</b></p>
             </div>
 
         </main>
