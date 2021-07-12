@@ -7,7 +7,7 @@
 	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 	<meta name="generator" content="Hugo 0.83.1">
 	<title>CODA study - training-task-fusion</title>
-	<base href="/study-tutorial-coda/site" />
+	<base href="/study-tutorial-coda/site/" />
 
 
 	<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
@@ -25,7 +25,7 @@
 <body>
 
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-	<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/informed-consent">CODA study</a>
+	<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="informed-consent/index-4.html">CODA study</a>
 	<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
@@ -39,14 +39,14 @@
 					<li class="nav-item">
 
 
-						<a class="nav-link " aria-current="page" href="/training/index-4.html">
+						<a class="nav-link " aria-current="page" href="training/index-4.html">
 							<span data-feather="home"></span>
 							Training
 						</a>
 						<ul class="nav flex-column">
-							<li class="nav-item"><a class="nav-link " href="/fusion-basics/index-4.html">Fusion basics (optional)</a></li>
-							<li class="nav-item"><a class="nav-link " href="/constraints/index-4.html">Constraints and parametric behavior</a></li>
-							<li class="nav-item"><a class="nav-link " href="/training-task/index-4.html">Training task</a></li>
+							<li class="nav-item"><a class="nav-link " href="fusion-basics/index-4.html">Fusion basics (optional)</a></li>
+							<li class="nav-item"><a class="nav-link " href="constraints/index-4.html">Constraints and parametric behavior</a></li>
+							<li class="nav-item"><a class="nav-link " href="training-task/index-4.html">Training task</a></li>
 						</ul>
 					</li>
 					<li class="nav-item">
@@ -58,7 +58,7 @@
 							
 							
 								<li class="nav-item">
-									<a class="nav-link " href="/training-task-coda/index-4.html" >
+									<a class="nav-link " href="training-task-coda/index-4.html" >
 										<span data-feather="tool"></span>
 										Training task (CODA)
 									</a>
@@ -68,7 +68,7 @@
 							
 							
 								<li class="nav-item">
-									<a class="nav-link " href="/bench-task/index-4.html">
+									<a class="nav-link " href="bench-task/index-4.html">
 										<span data-feather="tool"></span>
 										Study task 1
 									</a>
@@ -86,7 +86,7 @@
 							
 							
 							<li class="nav-item">
-								<a class="nav-link active" href="/training-task-fusion/index-4.html" >
+								<a class="nav-link active" href="training-task-fusion/index-4.html" >
 									<span data-feather="tool"></span>
 									Training task (Fusion)
 								</a>
@@ -96,7 +96,7 @@
 							
 							
 							<li class="nav-item">
-								<a class="nav-link " href="/desk-task/index-4.html">
+								<a class="nav-link " href="desk-task/index-4.html">
 									<span data-feather="tool"></span>
 									Study task 2
 								</a>
@@ -133,15 +133,15 @@
                         <b>In the video below, the side panel has a uniform width of 20mm. However, when changing the size of the laptop, this relation breaks.</b>
                         <p>As you can see when changing the depth of the laptop, the lines at the top do not remain parallel, causing the material to be of non-uniform thickness. This can be solved by adding a <i>parallel</i> constraint as shown below.</p>
                         <video controls>
-                            <source src="/images/coda-trainingtask1-fusion-0.mp4" type="video/mp4"/>
+                            <source src="images/coda-trainingtask1-fusion-0.mp4" type="video/mp4"/>
                         </video>
                         <p>Although we only place one parallel constraint, the bottom line will remain parallel to all 3 lines at the top. This is a result of the constraints that are already present in the model, implying that the 3 lines at the top are always parallel. You can also see this by attempting to add another parallel constraint: this will result in an error message as shown below because this constraint is already implied by the model.</p>
                         <video controls>
-                            <source src="/images/coda-trainingtask1-fusion-1.mp4" type="video/mp4"/>
+                            <source src="images/coda-trainingtask1-fusion-1.mp4" type="video/mp4"/>
                         </video>
                         <p>Moreover, the angle in the left side of the laptop stand is also not fixed yet. This can easily be solved by adding a perpendicular constraint between the bottom and the left edge as shown below.</p>
                         <video controls>
-                            <source src="/images/coda-trainingtask1-fusion-2.mp4" type="video/mp4"/>
+                            <source src="images/coda-trainingtask1-fusion-2.mp4" type="video/mp4"/>
                         </video>
                     </li>
                     <li>
@@ -151,25 +151,25 @@
                             Next, you can change the fixed dimension to a mathematical expression with a variable. For example, to specify the distance between the tabs to be 1/4th of the entire depth, we use the depth as a variable and enter <i>*name of variable* / 4</i> as the mathematical expression. You can find this name by hovering the dimension that you want to link the relation to as shown below.
                         </p>
                         <video controls>
-                            <source src="/images/coda-trainingtask2-fusion-0.mp4" type="video/mp4"/>
+                            <source src="images/coda-trainingtask2-fusion-0.mp4" type="video/mp4"/>
                         </video>
                         <p>Specifying the width of the tab to be half the length of the size between the tabs can be done using a similar procedure. Instead of linking to the depth directly, we link to one of the distances between the tabs. Instead of manually remembering and typing the name of the dimension, we can also simply click on it to fill in the name in the expression automatically. Although we don't directly link to the overall depth, these dimensions are still indirectly related.</p>
                         <video controls>
-                            <source src="/images/coda-trainingtask2-fusion-1.mp4" type="video/mp4"/>
+                            <source src="images/coda-trainingtask2-fusion-1.mp4" type="video/mp4"/>
                         </video>
                     </li>
                     <li>
                         <b>In the video below, the height of the two tabs are equal in size. However, when changing the height of top-left tab, this relations breaks.</b>
                         <p>This task repeats a very similar procedure to the actions performed in (2). We now link to the dimension of the top left tab, either by typing the name or clicking the dimension. Instead of filling in an algebraic formula, we can simply use the name of the dimension we want to link to, as this is shorthand for <i>*name of variable* x 1</i>.</p>
                         <video controls>
-                            <source src="/images/coda-trainingtask3-fusion.mp4" type="video/mp4"/>
+                            <source src="images/coda-trainingtask3-fusion.mp4" type="video/mp4"/>
                         </video>
                     </li>
                     <li>
                         <b>In the video below, the thickness (extrusion) of the top panel is equal to the height of the tabs. However, when the height of the tab changes, this relation breaks.</b>
                         <p>In (3), we linked all relevant entities in the side-profile sketch to the correct dimension. However, the thickness of the top part should also be related to the same value. We again remember the name of the parameter we want to make a reference to. Now, we leave the 2D sketch, and edit the extrude feature of the plate in 3D. Next, we replace the fixed value for the extrusion thickness to refer to the desired dimension.</p>
                         <video controls>
-                            <source src="/images/coda-trainingtask4-fusion.mp4" type="video/mp4"/>
+                            <source src="images/coda-trainingtask4-fusion.mp4" type="video/mp4"/>
                         </video>
                     </li>
                 </ol>
