@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f691397e-c9d9-4b85-89c3-a2e115d3a197" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/site/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/training-task-coda.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/training-task-coda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/training-task-fusion.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/training-task-fusion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/new/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
