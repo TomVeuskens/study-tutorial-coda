@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+	<meta name="generator" content="Hugo 0.83.1">
+	<title>CODA study - constraints</title>
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
+
+
+
+	<!-- Bootstrap core CSS -->
+	<link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+	<!-- Custom styles for this template -->
+	<link href="/css/dashboard.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+	<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/informed-consent">CODA study</a>
+	<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+</header>
+<div class="container-fluid">
+	<div class="row">
+		<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+			
+			<div class="position-sticky pt-3">
+				<ul class="nav flex-column">
+					<li class="nav-item">
+
+
+						<a class="nav-link " aria-current="page" href="/training/index-4.html">
+							<span data-feather="home"></span>
+							Training
+						</a>
+						<ul class="nav flex-column">
+							<li class="nav-item"><a class="nav-link " href="/fusion-basics/index-4.html">Fusion basics (optional)</a></li>
+							<li class="nav-item"><a class="nav-link active" href="/constraints/index-4.html">Constraints and parametric behavior</a></li>
+							<li class="nav-item"><a class="nav-link " href="/training-task/index-4.html">Training task</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						
+						
+							<b class="nav-link">CODA</b>
+						
+						<ul class="nav flex-column">
+							
+							
+								<li class="nav-item">
+									<a class="nav-link " href="/training-task-coda/index-4.html" >
+										<span data-feather="tool"></span>
+										Training task (CODA)
+									</a>
+								</li>
+							
+
+							
+							
+								<li class="nav-item">
+									<a class="nav-link " href="/bench-task/index-4.html">
+										<span data-feather="tool"></span>
+										Study task 1
+									</a>
+								</li>
+							
+						</ul>
+					</li>
+
+					<li class="nav-item">
+						
+						
+							<b class="nav-link">Fusion 360</b>
+						
+						<ul class="nav flex-column">
+							
+							
+							<li class="nav-item">
+								<a class="nav-link " href="/training-task-fusion/index-4.html" >
+									<span data-feather="tool"></span>
+									Training task (Fusion)
+								</a>
+							</li>
+							
+
+							
+							
+							<li class="nav-item">
+								<a class="nav-link " href="/desk-task/index-4.html">
+									<span data-feather="tool"></span>
+									Study task 2
+								</a>
+							</li>
+							
+						</ul>
+					</li>
+
+
+
+					<li class="nav-item">
+						<a class="nav-link" href="https://uhasselt.qualtrics.com/jfe/preview/SV_0TXvwtcsuGLVVA2?Q_CHL=preview&Q_SurveyVersionID=current">
+							<span data-feather="help-circle"></span>
+							Debrief Survey
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+		</nav>
+
+		4
+
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">Constraints and parametric behavior</h1>
+            </div>
+            <div>
+                <p>The purpose of this study is to specify parametric behavior in 3D CAD models by adding constraints to a 3D CAD model. Specifying parametric behavior is useful in 3D CAD modeling as it defines how the 3D CAD model behaves when it is resized. This enables designers to quickly make derived designs by only modifying the parameters and to reuse designs more efficiently.</p>
+                <p>A designer can specify parametric behavior in a 3D CAD model by adding <b>constraints</b>. Constraints ensure certain relations always remain while making updates to the model. For example, consider this laptop stand below. Constraints are needed for this laptop stand to resize correctly to fit a different laptop.</p>
+                <img src="/images/laptopstands.png" alt="laptopstands"/>
+                <p>For example, if we look at the side panels of the laptop stand (right image), several constraints are needed before this leg can correctly be resized. One of those is that the left edge (red in video) and bottom edges (green in video) should always be perpendicular, as illustrated below.</p>
+                <video controls>
+                    <source src="/images/constraints-expl.mp4" type="video/mp4"/>
+                </video>
+                <p>In the same part of the laptop stand, we can define other relations that should always remain satisfied, and thus should be constrained. Some of these relations are shown below.</p>
+                <video controls>
+                    <source src="/images/constraints-otherrelations-2d.mp4" type="video/mp4"/>
+                </video>
+                <p>The previous relations were defined in a single 2D sketch. However, it can also be desirable to constrain relations in 3D. If we look at the example of our laptop stand, we have to make sure the different plates always fit. So if the thickness of a plate changes, the length tab to hold the plate should be updated accordingly, as shown below.</p>
+                <video controls>
+                    <source src="/images/constraints-3d.mp4" type="video/mp4"/>
+                </video>
+                <p>In summary, the following constraints can be added in 3D CAD models (note that all but the last one are only applicable within a 2D sketch).</p>
+                <img src="/images/types-of-constraints.png" alt="constraint-types" style="margin-bottom: 10px"/>
+            </div>
+
+        </main>
+
+</div>
+</div>
+
+
+<script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
+</body>
+</html>

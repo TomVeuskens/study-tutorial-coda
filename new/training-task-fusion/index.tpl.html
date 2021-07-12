@@ -1,0 +1,64 @@
+@@include('_head.html', {
+"include_sidebar": true,
+"page": "training-task-fusion"
+})
+
+
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">Training task - Autodesk Fusion 360</h1>
+            </div>
+            <div>
+                <p>As the purpose of this training task is to get familiar with the tools that you will be using during the remainder of the study, we will now show how to complete the training task in both systems. On this page, you can view the procedure for the Fusion 360 condition. You are free to replicate the procedures illustrated on this page until you feel confident to start with the actual task in the Fusion 360 condition. </p>
+
+                <ol>
+                    <li>
+                        <b>In the video below, the side panel has a uniform width of 20mm. However, when changing the size of the laptop, this relation breaks.</b>
+                        <p>As you can see when changing the depth of the laptop, the lines at the top do not remain parallel, causing the material to be of non-uniform thickness. This can be solved by adding a <i>parallel</i> constraint as shown below.</p>
+                        <video controls>
+                            <source src="/images/coda-trainingtask1-fusion-0.mp4" type="video/mp4"/>
+                        </video>
+                        <p>Although we only place one parallel constraint, the bottom line will remain parallel to all 3 lines at the top. This is a result of the constraints that are already present in the model, implying that the 3 lines at the top are always parallel. You can also see this by attempting to add another parallel constraint: this will result in an error message as shown below because this constraint is already implied by the model.</p>
+                        <video controls>
+                            <source src="/images/coda-trainingtask1-fusion-1.mp4" type="video/mp4"/>
+                        </video>
+                        <p>Moreover, the angle in the left side of the laptop stand is also not fixed yet. This can easily be solved by adding a perpendicular constraint between the bottom and the left edge as shown below.</p>
+                        <video controls>
+                            <source src="/images/coda-trainingtask1-fusion-2.mp4" type="video/mp4"/>
+                        </video>
+                    </li>
+                    <li>
+                        <b>In the video below, the top edge is divided in five parts: two tabs and three cutouts between the tabs. The cutouts are a quarter of the laptop size, and the tabs are half the size of the cutouts. However, when changing the size of the laptop, these relations break.</b>
+                        <p>
+                            As you can see, in the original model the depth of the laptop is 200mm, the distance between the tabs 50mm, and the width of the tabs themselves is 25mm. To ensure these values are resized accordingly, we need to specify the 50mm and the 25mm as a fraction of the entire depth instead of fixed dimensions. More specifically, 50mm is 1/4 of the laptop size, and 25mm is 1/2 of the 50mm. You can specify this in Fusion 360 by double clicking a dimension to edit it.
+                            Next, you can change the fixed dimension to a mathematical expression with a variable. For example, to specify the distance between the tabs to be 1/4th of the entire depth, we use the depth as a variable and enter <i>*name of variable* / 4</i> as the mathematical expression. You can find this name by hovering the dimension that you want to link the relation to as shown below.
+                        </p>
+                        <video controls>
+                            <source src="/images/coda-trainingtask2-fusion-0.mp4" type="video/mp4"/>
+                        </video>
+                        <p>Specifying the width of the tab to be half the length of the size between the tabs can be done using a similar procedure. Instead of linking to the depth directly, we link to one of the distances between the tabs. Instead of manually remembering and typing the name of the dimension, we can also simply click on it to fill in the name in the expression automatically. Although we don't directly link to the overall depth, these dimensions are still indirectly related.</p>
+                        <video controls>
+                            <source src="/images/coda-trainingtask2-fusion-1.mp4" type="video/mp4"/>
+                        </video>
+                    </li>
+                    <li>
+                        <b>In the video below, the height of the two tabs are equal in size. However, when changing the height of top-left tab, this relations breaks.</b>
+                        <p>This task repeats a very similar procedure to the actions performed in (2). We now link to the dimension of the top left tab, either by typing the name or clicking the dimension. Instead of filling in an algebraic formula, we can simply use the name of the dimension we want to link to, as this is shorthand for <i>*name of variable* x 1</i>.</p>
+                        <video controls>
+                            <source src="/images/coda-trainingtask3-fusion.mp4" type="video/mp4"/>
+                        </video>
+                    </li>
+                    <li>
+                        <b>In the video below, the thickness (extrusion) of the top panel is equal to the height of the tabs. However, when the height of the tab changes, this relation breaks.</b>
+                        <p>In (3), we linked all relevant entities in the side-profile sketch to the correct dimension. However, the thickness of the top part should also be related to the same value. We again remember the name of the parameter we want to make a reference to. Now, we leave the 2D sketch, and edit the extrude feature of the plate in 3D. Next, we replace the fixed value for the extrusion thickness to refer to the desired dimension.</p>
+                        <video controls>
+                            <source src="/images/coda-trainingtask4-fusion.mp4" type="video/mp4"/>
+                        </video>
+                    </li>
+                </ol>
+            </div>
+        </main>
+
+@@include('_footer.html')
+
+

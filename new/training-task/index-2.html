@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+	<meta name="generator" content="Hugo 0.83.1">
+	<title>CODA study - training-task</title>
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
+
+
+
+	<!-- Bootstrap core CSS -->
+	<link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+	<!-- Custom styles for this template -->
+	<link href="/css/dashboard.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+	<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/informed-consent">CODA study</a>
+	<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+</header>
+<div class="container-fluid">
+	<div class="row">
+		<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+			
+			<div class="position-sticky pt-3">
+				<ul class="nav flex-column">
+					<li class="nav-item">
+
+
+						<a class="nav-link " aria-current="page" href="/training/index-2.html">
+							<span data-feather="home"></span>
+							Training
+						</a>
+						<ul class="nav flex-column">
+							<li class="nav-item"><a class="nav-link " href="/fusion-basics/index-2.html">Fusion basics (optional)</a></li>
+							<li class="nav-item"><a class="nav-link " href="/constraints/index-2.html">Constraints and parametric behavior</a></li>
+							<li class="nav-item"><a class="nav-link active" href="/training-task/index-2.html">Training task</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						
+							<b class="nav-link">Fusion 360</b>
+						
+						
+						<ul class="nav flex-column">
+							
+								<li class="nav-item">
+									<a class="nav-link " href="/training-task-fusion/index-2.html" >
+										<span data-feather="tool"></span>
+										Training task (Fusion)
+									</a>
+								</li>
+							
+							
+
+							
+							
+								<li class="nav-item">
+									<a class="nav-link " href="/bench-task/index-2.html">
+										<span data-feather="tool"></span>
+										Study task 1
+									</a>
+								</li>
+							
+						</ul>
+					</li>
+
+					<li class="nav-item">
+						
+							<b class="nav-link">CODA</b>
+						
+						
+						<ul class="nav flex-column">
+							
+							<li class="nav-item">
+								<a class="nav-link " href="/training-task-coda/index-2.html" >
+									<span data-feather="tool"></span>
+									Training task (CODA)
+								</a>
+							</li>
+							
+							
+
+							
+							
+							<li class="nav-item">
+								<a class="nav-link " href="/desk-task/index-2.html">
+									<span data-feather="tool"></span>
+									Study task 2
+								</a>
+							</li>
+							
+						</ul>
+					</li>
+
+
+
+					<li class="nav-item">
+						<a class="nav-link" href="https://uhasselt.qualtrics.com/jfe/preview/SV_0TXvwtcsuGLVVA2?Q_CHL=preview&Q_SurveyVersionID=current">
+							<span data-feather="help-circle"></span>
+							Debrief Survey
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+		</nav>
+
+		2
+
+
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">Training task</h1>
+            </div>
+            <div>
+                <p>
+                    We will now use the example of the <a href="/constraints/index-2.html">laptop stand</a> to get familiar with both tools that will be used in this study. We will give a task to build a parametric specification similar to the actual tasks that will be performed in this study.
+                    We will show how this training task is performed in both tools. You are given time to replicate these procedures yourself to get familiar with both tools. Once you feel confident with a tool to start the task you're assigned to, you can move to the actual task.
+                    During the training phases, please feel free to ask questions to the researcher that is guiding your study session. Once you move to the actual task, this is not possible anymore.
+                </p>
+                <h3>Task</h3>
+                <p>For this training task, we will focus only on the side and top panel of the laptop stand, each of which are extruded sketches as shown below. The sketches for these parts already include some basic constraints.</p>
+                <video controls>
+                    <source src="/images/trainingtaskdescription-modelbuildup.mp4" type="video/mp4"/>
+                </video>
+                <p>In this training task, you'll learn how to add the necessary constraints to ensure this laptop stand always resizes correctly. We now first describe four prominent issues that arise when resizing the model. In the following sections, we will resolve this issues using respectively Fusion 360 and CODA. We make the most important parameters available to test your design through user parameters, but you can also test your design by double clicking the dimensions to directly manipulate the values.</p>
+                <ol>
+                    <li>
+                        In the video below, the side panel has a uniform width of 20mm. However, when changing the size of the laptop, this relation breaks.
+                    </li>
+                    <video controls>
+                        <source src="/images/trainingtask-part1.mp4" type="video/mp4"/>
+                    </video>
+                    <li>
+                        In the video below, the top edge is divided in five parts: two tabs and three cutouts between the tabs. The cutouts are a quarter of the laptop size, and the tabs are half the size of the cutouts. However, when changing the size of the laptop, these relations break.
+                    </li>
+                    <video controls>
+                        <source src="/images/trainingtask-part2.mp4" type="video/mp4"/>
+                    </video>
+                    <li>
+                        In the video below, the height of the two tabs are equal in size. However, when changing the height of top-left tab, this relations breaks.
+                    </li>
+                    <video controls>
+                        <source src="/images/trainingtask-part3.mp4" type="video/mp4"/>
+                    </video>
+                    <li>
+                        In the video below, the thickness (extrusion) of the top panel is equal to the height of the tabs. However, when the height of the tab changes, this relation breaks.
+                    </li>
+                    <video controls>
+                        <source src="/images/trainingtask-part4.mp4" type="video/mp4"/>
+                    </video>
+                </ol>
+                <p><b>Your task consists of adding the necessary constraints such that the relations above are always satisfied when the size of the laptop or the height of the tabs change.</b></p>
+            </div>
+
+        </main>
+
+</div>
+</div>
+
+
+<script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
+</body>
+</html>
+

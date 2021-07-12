@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+	<meta name="generator" content="Hugo 0.83.1">
+	<title>CODA study - @@page</title>
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
+
+
+
+	<!-- Bootstrap core CSS -->
+	<link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+	<!-- Custom styles for this template -->
+	<link href="/css/dashboard.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+	<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/informed-consent">CODA study</a>
+	<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+</header>
+<div class="container-fluid">
+	<div class="row">
+		<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+			@@if (include_sidebar !== false) {
+			<div class="position-sticky pt-3">
+				<ul class="nav flex-column">
+					<li class="nav-item">
+
+
+						<a class="nav-link @@if (page == 'training'){active}" aria-current="page" href="/training/index-@@condition.html">
+							<span data-feather="home"></span>
+							Training
+						</a>
+						<ul class="nav flex-column">
+							<li class="nav-item"><a class="nav-link @@if (page == 'fusion-basics'){active}" href="/fusion-basics/index-@@condition.html">Fusion basics (optional)</a></li>
+							<li class="nav-item"><a class="nav-link @@if (page == 'constraints'){active}" href="/constraints/index-@@condition.html">Constraints and parametric behavior</a></li>
+							<li class="nav-item"><a class="nav-link @@if (page == 'training-task'){active}" href="/training-task/index-@@condition.html">Training task</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						@@if (condition == 1 || condition === 2) {
+							<b class="nav-link">Fusion 360</b>
+						}
+						@@if (condition == 3 || condition == 4) {
+							<b class="nav-link">CODA</b>
+						}
+						<ul class="nav flex-column">
+							@@if (condition === 1 || condition === 2) {
+								<li class="nav-item">
+									<a class="nav-link @@if (page == 'training-task-fusion'){active}" href="/training-task-fusion/index-@@condition.html" >
+										<span data-feather="tool"></span>
+										Training task (Fusion)
+									</a>
+								</li>
+							}
+							@@if (condition === 3 || condition === 4) {
+								<li class="nav-item">
+									<a class="nav-link @@if (page == 'training-task-coda'){active}" href="/training-task-coda/index-@@condition.html" >
+										<span data-feather="tool"></span>
+										Training task (CODA)
+									</a>
+								</li>
+							}
+
+							@@if (condition === 1 || condition === 3) {
+								<li class="nav-item">
+									<a class="nav-link @@if (page == 'desk-task'){active}" href="/desk-task/index-@@condition.html">
+										<span data-feather="tool"></span>
+										Study task 1
+									</a>
+								</li>
+							}
+							@@if (condition === 2 || condition === 4) {
+								<li class="nav-item">
+									<a class="nav-link @@if (page == 'bench-task'){active}" href="/bench-task/index-@@condition.html">
+										<span data-feather="tool"></span>
+										Study task 1
+									</a>
+								</li>
+							}
+						</ul>
+					</li>
+
+					<li class="nav-item">
+						@@if (condition == 1 || condition === 2) {
+							<b class="nav-link">CODA</b>
+						}
+						@@if (condition == 3 || condition == 4) {
+							<b class="nav-link">Fusion 360</b>
+						}
+						<ul class="nav flex-column">
+							@@if (condition === 1 || condition === 2) {
+							<li class="nav-item">
+								<a class="nav-link @@if (page == 'training-task-coda'){active}" href="/training-task-coda/index-@@condition.html" >
+									<span data-feather="tool"></span>
+									Training task (CODA)
+								</a>
+							</li>
+							}
+							@@if (condition === 3 || condition === 4) {
+							<li class="nav-item">
+								<a class="nav-link @@if (page == 'training-task-fusion'){active}" href="/training-task-fusion/index-@@condition.html" >
+									<span data-feather="tool"></span>
+									Training task (Fusion)
+								</a>
+							</li>
+							}
+
+							@@if (condition === 1 || condition === 3) {
+							<li class="nav-item">
+								<a class="nav-link @@if (page == 'bench-task'){active}" href="/bench-task/index-@@condition.html">
+									<span data-feather="tool"></span>
+									Study task 2
+								</a>
+							</li>
+							}
+							@@if (condition === 2 || condition === 4) {
+							<li class="nav-item">
+								<a class="nav-link @@if (page == 'desk-task'){active}" href="/desk-task/index-@@condition.html">
+									<span data-feather="tool"></span>
+									Study task 2
+								</a>
+							</li>
+							}
+						</ul>
+					</li>
+
+
+
+					<li class="nav-item">
+						<a class="nav-link" href="https://uhasselt.qualtrics.com/jfe/preview/SV_0TXvwtcsuGLVVA2?Q_CHL=preview&Q_SurveyVersionID=current">
+							<span data-feather="help-circle"></span>
+							Debrief Survey
+						</a>
+					</li>
+				</ul>
+			</div>
+			}
+		</nav>
+
+		@@condition
