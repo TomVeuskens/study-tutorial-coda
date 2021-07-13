@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54213cfe-8306-47cd-8940-8407860f364c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/assets/brand/bootstrap-logo-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/assets/brand/bootstrap-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/bench-task/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/bench-task/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/bench-task/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/bench-task/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/bench-task/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/bench-task/index.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/constraints/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/constraints/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/constraints/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/constraints/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/constraints/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/constraints/index.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/css/dashboard.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/desk-task/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/desk-task/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/desk-task/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/desk-task/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/desk-task/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/desk-task/index.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/fusion-basics/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/fusion-basics/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/fusion-basics/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/fusion-basics/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/fusion-basics/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/fusion-basics/index.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/CODA-trainingtask2-coda-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/CODA-trainingtask2-coda-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/bench-task-description-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/bench-task-description-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/bench-task-description-1_Trim.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/bench-task-description-2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/bench-task-description-3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask1-coda-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask1-coda-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask1-fusion-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask1-fusion-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask1-fusion-2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask2-fusion-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask2-fusion-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask3-coda.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask3-fusion.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask4-coda-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask4-coda-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask4-coda-2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/coda-trainingtask4-fusion.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/constraints-3d.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/constraints-expl.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/constraints-otherrelations-2d.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/desk-task-description-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/desk-task-description-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/desk-task-description-2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/desk-task-description-3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/desk-tasksetup.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/desks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/feature-edit.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/fusion-basics.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/laptopstands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/picknick-bench-tasksetup.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/picknickbenches.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/placeholder-trim.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/placeholder.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/sketch-extrude.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/trainingtask-part1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/trainingtask-part2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/trainingtask-part3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/trainingtask-part4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/trainingtaskdescription-modelbuildup.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/images/types-of-constraints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/index.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/informed-consent/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/informed-consent/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/informed-consent/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/informed-consent/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/informed-consent/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/informed-consent/index.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/templates/_footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/templates/_head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/templates/_side.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task-coda/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task-coda/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task-coda/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task-coda/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task-coda/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task-coda/index.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task-fusion/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task-fusion/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task-fusion/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task-fusion/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task-fusion/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task-fusion/index.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training-task/index.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/training/index.tpl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/assets/brand/bootstrap-logo-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/assets/brand/bootstrap-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/assets/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/assets/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/assets/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/assets/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/assets/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/bench-task/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/bench-task/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/bench-task/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/bench-task/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/bench-task/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/constraints/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/constraints/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/constraints/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/constraints/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/constraints/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/css/dashboard.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/desk-task/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/desk-task/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/desk-task/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/desk-task/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/desk-task/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/fusion-basics/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/fusion-basics/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/fusion-basics/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/fusion-basics/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/fusion-basics/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/CODA-trainingtask2-coda-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/CODA-trainingtask2-coda-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/bench-task-description-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/bench-task-description-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/bench-task-description-1_Trim.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/bench-task-description-2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/bench-task-description-3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask1-coda-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask1-coda-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask1-fusion-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask1-fusion-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask1-fusion-2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask2-fusion-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask2-fusion-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask3-coda.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask3-fusion.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask4-coda-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask4-coda-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask4-coda-2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/coda-trainingtask4-fusion.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/constraints-3d.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/constraints-expl.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/constraints-otherrelations-2d.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/desk-task-description-0.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/desk-task-description-1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/desk-task-description-2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/desk-task-description-3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/desk-tasksetup.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/desks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/feature-edit.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/fusion-basics.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/laptopstands.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/picknick-bench-tasksetup.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/picknickbenches.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/placeholder-trim.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/placeholder.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/sketch-extrude.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/trainingtask-part1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/trainingtask-part2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/trainingtask-part3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/trainingtask-part4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/trainingtaskdescription-modelbuildup.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/images/types-of-constraints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/informed-consent/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/informed-consent/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/informed-consent/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/informed-consent/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/informed-consent/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/templates/_footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/templates/_head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/templates/_side.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task-coda/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task-coda/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task-coda/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task-coda/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task-coda/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task-fusion/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task-fusion/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task-fusion/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task-fusion/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task-fusion/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training-task/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../site/training/index.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1jbc0Lp81NCIO3tMNEa1lOStDmA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../study-tutorial-coda/site" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tveuskens\Documents\MUM21\mum21\2021" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54213cfe-8306-47cd-8940-8407860f364c" name="Default Changelist" comment="" />
+      <created>1604076007764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604076007764</updated>
+      <workItem from="1604076010859" duration="1402000" />
+      <workItem from="1604077573068" duration="15388000" />
+      <workItem from="1604940409968" duration="1435000" />
+      <workItem from="1605803348290" duration="2830000" />
+      <workItem from="1605807011165" duration="47000" />
+      <workItem from="1605880627143" duration="9191000" />
+      <workItem from="1606149108608" duration="5299000" />
+      <workItem from="1606291273102" duration="625000" />
+      <workItem from="1625834934777" duration="15714000" />
+      <workItem from="1626161900642" duration="33000" />
+      <workItem from="1626161935067" duration="139000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
