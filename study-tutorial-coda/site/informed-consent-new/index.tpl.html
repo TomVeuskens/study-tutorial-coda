@@ -1,0 +1,50 @@
+@@include('_head.html', {
+"include_sidebar": false,
+"page": "informed-consent-new"
+})
+
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Study background and Informed consent</h1>
+    </div>
+    <div class="col-md-9">
+        <h3>Purpose</h3>
+        <p>Correctly specified parametric behavior in 3D CAD models facilitates the creation of design variations and allows for reusing CAD models. At present, we are running a study to observe how designers use and perceive constraints. For this, we will use Autodesk Fusion 360. We would like to learn how constraints are understood by designers, and which features are desirable and useful to have when engineering parametric 3D CAD models.</p>
+        <p>It is important to note we are not evaluating your individual performance, but the performance of the software. Moreover, participation in this study is entirely voluntary. You are free to refuse to participate and you may discontinue participation at any time. As such, you are free to stop the study at any point in time, and to decline answering any of the questions without further explanations.</p>
+
+
+        <h3>Study procedure</h3>
+        <p>The study will consist out of 3 main phases, as follows:</p>
+        <ol>
+            <li>Training: during this phase, we will explain the Autodesk Fusion 360 interface (optional) and explain what constraints are and why they are useful in 3D CAD modeling. Next, we will give you a training task in the same format as the actual tasks during the study and show you how to successfully complete this task. You can repeat this procedure to get familiar with the software.</li>
+            <li>
+                Tasks: during this phase, you will perform several tasks where you will be asked to make 3D CAD models parametric according to a given parametric specification. For each task, you will be given a 3D model and a before-after illustration. Your task will consist of adding constraints to the model to ensure the model behaves as specified. For each task, you will be given <b>5 minutes</b> maximum.
+                After finishing a task, or after the allotted time has elapsed, you will move to the next task.
+
+<!--                Training + tasks: during this phase, you will perform two tasks where you will be asked to make two 3D CAD models parametric according to a given parametric specification. For each task, you will use only one of the approaches to add parametric behavior.-->
+<!--                @@if(condition===1||condition===2){-->
+<!--                Given the order you are randomly assigned to, you will start with the <b>manual condition</b>, followed by the <b>CODA condition</b>.-->
+<!--                }-->
+<!--                @@if(condition===3||condition===4){-->
+<!--                Given the order you are randomly assigned to, you will start with the <b>CODA condition</b>, followed by the <b>manual condition</b>.-->
+<!--                }-->
+<!--                <ol>-->
+<!--                    <li>Training: before each task, there will be a training phase. In this phase, we will show how to perform a task in the assigned tool. Afterwards, you are given time to replicate the illustrated procedure to get familiar with the tool. During this phase, you are allowed to ask questions and/or clarifications to the researcher that is guiding your study session.</li>-->
+<!--                    <li>Task: after completing the training for a specific tool, you will start the actual study task in that tool. For the task, you are allowed to take up to 20 minutes, after which the task will be cut off.</li>-->
+<!--                </ol>-->
+            </li>
+            <li>Debriefing: after completion of the tasks, we will go to the final phase of the study, in which we will go over a debriefing survey to evaluate your subjective experiences during this study.</li>
+        </ol>
+        <h3>Information we collect and Privacy concerns</h3>
+        <p>We will observe how you perform the tasks in both tools. During execution of the tasks, the screen will be recorded for later reference. Moreover, your interactions (mouse and keyboard presses) are logged to a text file to allow for analysis. Your contributions will remain pseudonymous and will be treated confidentially. Because of pseudonymization, your right to request access to, or alter, your data will be technically possible only right after you have finished your participation. Your test data (i.e., performance metrics) is never eligible for alteration.</p>
+        <p>We may publish research reports that include your comments and actions but your data will be anonymous. This means your personal information will never be disclosed in our research reports.</p>
+        <p>Your data will be stored in a private cloud-based repository as provided by the infrastructure of Hasselt University until five years after the publication of the results of our study.</p>
+        <p><b>The Hasselt University research team thanks you in advance for your participation in this study.<br/>Tom Veuskens, Raf Ramakers</b><br/>Contact: tom.veuskens@uhasselt.be</p>
+        <a href="training/index-@@condition.html" class="btn btn-outline-primary">Accept terms and proceed to study</a>
+    </div>
+</main>
+
+@@include('_footer.html')
+
+
+
