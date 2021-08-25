@@ -111,7 +111,7 @@ gulp.task("html", function() {
 });
 
 gulp.task("build", function() {
-	gulp.src(["**/*.html", "!**/*.tpl.html", "!node_modules/**/*.*", "**/*.css", "**/*.map", "**/*.jpg", "**/*.png", "**/*.jpeg", "**/*.jfif", "**/*.svg", "**/*.docx", "**/*.zip", "**/*.mp4"])
+	gulp.src(["**/*.html", "!**/*.tpl.html", "!node_modules/**/*.*", "**/*.css", "**/*.map", "**/*.jpg", "**/*.png", "**/*.jpeg", "**/*.jfif", "**/*.svg", "**/*.docx", "**/*.zip", "**/*.mp4", "**/*.pdf"])
 		.pipe(gulp.dest("../../site/"))
 });
 

@@ -1,0 +1,20 @@
+@@include('_head.html', {
+"include_sidebar": true,
+"page": "task4"
+})
+
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Study task 4: @@if(condition===1||condition===4){Fusion 360} @@if(condition===2||condition===3){CODA}</h1>
+    </div>
+    <div>
+        <!--        <p><b>You are assigned to do this task in the <i>@@if(condition===1||condition===4){Fusion 360} @@if(condition===2||condition===3){CODA}</i> condition</b></p>-->
+        <embed src="images/tasks/task 3.pdf" type="application/pdf" frameBorder="0" scrolling="auto" height="750px" width="100%"></embed>
+
+        <a href="https://uhasselt.qualtrics.com/jfe/preview/SV_8HMVH6I5xZUmhwy?Q_CHL=preview&Q_SurveyVersionID=current" class="btn btn-outline-primary">End task and go to questionnaire</a>
+        <a href="task5/index-@@condition.html" class="btn btn-outline-primary">Go to next task</a>
+    </div>
+
+</main>
+
+@@include('_footer.html')

@@ -1,0 +1,21 @@
+@@include('_head.html', {
+"include_sidebar": true,
+"page": "study-tasks"
+})
+
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Study tasks: @@if(condition===1||condition===4){Fusion 360} @@if(condition===2||condition===3){CODA}</h1>
+    </div>
+    <div>
+        <p><b>You are assigned to do the tasks in the <i>@@if(condition===1||condition===4){Fusion 360} @@if(condition===2||condition===3){CODA}</i> condition</b></p>
+        <p>You will now be presented a number of tasks in the same format as the training task you just completed. For each task, you are given a maximum of 10 minutes, after which the model will automatically close. After each task, you are asked to fill in a small questionnaire about the task. </p>
+        <p>Once you end a task and proceed with the study, you cannot go back.</p>
+        <p>If you are ready to start the first task, press the button below.</p>
+        <a href="task1/index-@@condition.html" class="btn btn-outline-primary">Start task 1</a>
+
+    </div>
+
+</main>
+
+@@include('_footer.html')
