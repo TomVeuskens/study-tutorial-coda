@@ -1,0 +1,51 @@
+@@include('_head.html', {
+"include_sidebar": true,
+"page": "fully-defined"
+})
+
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Under- and overconstraining</h1>
+    </div>
+    <div>
+        <p>When adding constraints and parametric behavior to 3D CAD models, the goal is to add exactly the right amount of constraints to the model. Adding too little constraints results in an under-constrained model, while adding too many constraints will result in an over-constrained model. When having exactly the right amount of constraints, the model is <b>fully-constrained</b> or <b>fully-defined</b></p>
+        <p>In Autodesk Fusion 360, the CAD software we will be using throughout this study, this is defined on the 2D sketch level. Each sketch can thus be in one of the following fou states:</p>
+        <ol>
+<!--            <li>Unconstrained: no entities in the sketch are constrained, every entity can be moved around freely, independently of the others. </li>-->
+            <li>
+                <p><b>Under-constrained</b>: some entities in the sketch are constrained, but not all. Some entities are still able to move freely, while others are not. These undesired "degrees-of-freedom" can lead to unexpected behavior in the model when making parametric changes.</p>
+                <p>In Fusion 360, an under-constrained sketch can be identified in the content browser as shown below. Note the "edit" icon in the sketch, indicating the sketch is still a "work-in-progress" as not all constraints are added yet.</p>
+                <img style="width: 300px;" src="images/under-constrained-sketch.png"/>
+                <p>When editing a sketch in Fusion 360, you can also observe the state of individual entities through their color. More specifically, unconstrained entities have a blue color when not selected, as shown below.</p>
+                <img style="width: 400px;" src="images/unconstrained-line.png"/>
+            </li>
+            <li>
+                <p><b>Fully-constrained/fully-defined</b>: all possible and relevant constraints and dimensions are applied to the sketch. The sketch can only be modified by changing the values of the dimensional constraints, and there will be no unexpected behavior when making changes.</p>
+                <p>In Fusion 360, a fully-constrained/fully-defined sketch can be identified in the content browser as shown below. Note the "lock" icon in the sketch, indicating the all entities in the sketch are locked through constraints.</p>
+                <img style="width: 300px;" src="images/fully-constrained-sketch.png"/>
+                <p>When editing a sketch in Fusion 360, you can also observe the state of the individual entities through their color. More specifically, fully-constrained entities have a black color when not selected, as shown below.</p>
+                <img style="width: 400px;" src="images/fully-constrained-line.png"/>
+            </li>
+
+            <li>
+                <p><b>Over-constrained</b>: there are duplicate constraints in the model, enforcing the same relation in different ways. Fusion 360 prevents this state from occurring by showing an error and removing the inserted constraint when this conflict occurs. The error message is shown below.</p>
+                <img src="images/over-constrained-sketch.png"/>
+                <p>To understand why this error is shown, consider the simplistic example shown below. As the bottom line is already perpendicular to a line that is vertically constrained, it is already implied that the bottom line will always be horizontal. Attempting to add a horizontal constraint thus results in a duplicate specification of the same relation, which is not possible.</p>
+                <video controls>
+                    <source src="images/overconstrained-example.mp4" type="video/mp4"/>
+                </video>
+            </li>
+        </ol>
+
+
+
+        <!--enkel nog iets van blauwe lijnen vermelden denk ik-->
+<!--        TODO: how does this look in fusion: states on sketch etc, blue lines in sketch, overconstrain error, etc-->
+<!--        try to contain all info in compact package-->
+        <p>In conclusion, if in Autodesk Fusion 360 every sketch of a model is <b>fully defined</b>/<b>fully constrained</b>, then the model itself is <b>fully defined</b>/<b>fully constrained</b>, resulting in predictable parametric behavior and a robust model.</p>
+
+    </div>
+
+</main>
+
+@@include('_footer.html')
